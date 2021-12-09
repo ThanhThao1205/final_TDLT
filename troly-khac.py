@@ -45,5 +45,6 @@ def assistant():
         elif 'stop' in str(text) or 'bye' in str(text):
             stop()
             break
+assistant()
 
 
