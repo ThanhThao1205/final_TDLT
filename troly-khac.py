@@ -27,6 +27,7 @@ def get_text():
         elif i<2:
             speak("I can not understand, please repeat!")
     return 'user'
+
 def welcome():
     hour = datetime.now().hour
     if hour >=6 and hour<12:
