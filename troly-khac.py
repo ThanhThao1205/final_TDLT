@@ -54,6 +54,7 @@ def stop():
     speak("See you later!")
 
 def assistant():
+    welcome()
     speak('What is your name?')
     name = get_text()
     speak('Hello ' +str(name))
