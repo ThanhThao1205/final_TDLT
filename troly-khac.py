@@ -46,4 +46,4 @@ def assistant():
             stop()
             break
 
-assistant()
+
